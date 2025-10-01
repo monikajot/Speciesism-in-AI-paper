@@ -1,0 +1,12 @@
+backoff
+matplotlib
+numpy
+openai
+pandas
+protobuf
+python-dotenv
+regex
+seaborn
+torch
+tqdm
+transformers

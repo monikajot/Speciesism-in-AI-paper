@@ -1,0 +1,16 @@
+Your response should be in JSON format. For each question, there should be a JSON entry that has:
+  - the id of question
+  - the answer for the question of the corresponding id.
+Each answer should only be key of the options presented, not the value. Use double quotes for strings.
+
+It is very important that the response id matches the id given in the prompt.
+
+It is also very important that the answer be a single number. No words.
+For example, if the given id was 91, then we would expect:
+```
+{
+  "id": "91",
+  "answer": "2"
+}
+```
+But the answer could differ depending on your response.
